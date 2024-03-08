@@ -1,0 +1,59 @@
+h2{
+    color:brown;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -5px -5px 5px black;
+}
+/* 
+.styletext{
+    font-weight: bold;
+    color: red;
+} */
+
+/* .para {
+    font-weight: bold;
+    color: red;
+}
+.newpara::first-letter{
+    color: blue;
+    font-size: 32px;
+
+}
+/* :nth-child()
+:first-child
+:last-child */
+/* .newpara::first-line{
+color: yellow;
+} */ */
+
+.btn{
+    background-color: blue;
+    color: white;
+}
+
+/* .btn:hover[
+    color
+] */
+
+
+.input:focus{
+  
+    background-color: blue;
+}
+
+
+.box{
+    background-color: rgb(34, 255, 0);
+     width:100%;;
+    width: 50%; 
+    max-width: 500px; */
+    /* min-width: 30%; */
+    /* height:auto ;  */
+    /* max-height: 200px; */
+    /* min-height: 100px;
+    overflow: auto;}
+
+
+span{
+background-color: brown;
+}

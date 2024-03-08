@@ -1,0 +1,48 @@
+.fieldset{
+ padding: 20px 30px;
+}
+
+.fieldcontainer{
+    margin-top: 20px;
+}
+.fieldcontainer label{
+    display: block;
+}
+.select{
+    padding-top: 2px;
+}
+
+
+.parent legend{
+    text-align: center;
+}
+
+.fieldcontainer input{
+    width: 100%;
+    outline: none;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.fieldcontainer button{
+  width: 100%;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.fieldset legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.parent{
+    background-color: lightcyan;
+    height: 90vh;
+}

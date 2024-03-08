@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    /* Add your styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+    /* Add more styles based on your design preferences */
+  </style>
+</head>
+<body>
+
+  <form>
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="country">Choose your country</label>
+    <select id="country" name="country">
+      <!-- Add options for countries -->
+      <option value="choose your country">isalmabad</option>
+      <option value="choose your country">quitta</option>
+      <option value="choose your country">peshawer</option>
+      <option value="choose your country">karachi</option>
+      <!-- Add more options as needed -->
+    </select>
+
+    <label>Gender</label>
+    <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+    <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+  
+
+    <label>Hobbies</label>
+    <label for="hobby1"><input type="checkbox" id="hobby1" name="hobbies[]" value="hobby1"> Hobby 1</label>
+    <label for="hobby2"><input type="checkbox" id="hobby2" name="hobbies[]" value="hobby2"> Hobby 2</label>
+   
+
+    <input type="submit" value="Sign Up">
+  </form>
+
+</body>
+</html>

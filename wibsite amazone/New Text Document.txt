@@ -1,0 +1,2 @@
+fahim-amazon.surge.sh
+fahim-youtube.surge.sh

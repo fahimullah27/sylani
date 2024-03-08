@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color:rgb(201, 48, 48);
+  border-radius: 30px;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: auto;
+}
+.navbar li a{
+  padding: 3px 3px ;
+  text-decoration: none;
+  color: white;
+  margin: 13px 20px;
+}
+.search{
+  float:right ;
+  color: white;
+  padding: 12px 75px;
+}
+
+
+
+.main {
+ background-color: yellow; 
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  margin: 144px auto;
+  /* background-color:rgba(251, 0, 255, 0.878); */
+  height: 58vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.hello {
+  font-size: 55px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+}
+.about {
+  font-size: 40px;
+}
+
+.moreabout {
+  font-size: 22px;
+  margin-top: 23px;
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  margin-top: 34px;
+}
+.btn {
+  padding: 9px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.btn-sm{
+font-size: 17px;
+}
+
+.devPic img {
+  height: 58vh;
+}
+
+.contactform {
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: "Poppins", sans-serif;
+}
+.contactform h1 {
+  font-family: "fira Sans", sans-serif;
+ padding: 12PX 0;
+}
+.contactform div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+
+}
+#form-check-input{
+width:24px ;
+margin:3PX 0;
+}

@@ -1,0 +1,23 @@
+/* *{
+ color: black;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.box1{
+ background-color: ORANGE;
+ width: 200px;
+ height: 200px;
+
+}
+
+.box2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+} */
+
+.box10 > p{
+    color: red;
+}
