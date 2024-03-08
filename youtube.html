@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f7f0f0;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+        }
+
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #sidebar {
+            flex: 0 0 250px;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        #content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #searchBar {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        iframe {
+            /* align-content: center; */
+            padding: 20px;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YouTube Assignment 6</h1>
+    </header>
+
+    <div id="main">
+
+        <div id="sidebar">
+            <button>Home</button><br>
+            <button> Short</button><br>
+            <button>Trending</button><br>
+            <button>Subscriptions</button><br>
+            <button>Downloads</button>
+            <!-- Add more buttons as needed -->
+        </div>
+
+        <div id="content">
+            <input type="text" id="searchBar" placeholder="Search...">
+            <h2>Search Results</h2>
+
+            <h2>Recommended Videos</h2>
+            <div>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DjhQwkq4m-c?si=ifNaOSZL8hMCViPo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RCXAHdqUSYo?si=Wi0ZSYerlmDYNw0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wM2CcZ8daz4?si=V-iUmtSlJEam4UhK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <footer>
+            </div>
+            <p>&copy; 2023 YouTube</p>
+            </footer>
+
+
+
+</body>
+
+</html>
